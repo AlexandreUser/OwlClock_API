@@ -9,12 +9,14 @@ let questionSchema = new Schema({
   question: String,
   responses: [String],
   valid: Number,
+  active: Boolean,
 });
 let quizSchema = new Schema({
   id: String,
   title: String,
   description: String,
   author: String,
+  active: Boolean,
 });
 exports.quiz = mongoose.model("quiz", quizSchema);
 exports.question = mongoose.model("question", questionSchema);
