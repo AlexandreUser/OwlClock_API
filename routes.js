@@ -8,4 +8,6 @@ routes.get("/api/v1/quiz", QuizController.find);
 routes.get("/api/v1/quiz/:id", QuizController.findById);
 routes.put("/api/v1/quiz", QuizController.update);
 routes.delete("/api/v1/quiz/:id", QuizController.delete);
+routes.get("", QuizController.hello);
+
 module.exports = routes;

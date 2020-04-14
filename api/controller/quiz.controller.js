@@ -1,5 +1,8 @@
 const { quizService } = require("../service/quiz.service");
 module.exports = {
+  async hello(req, res) {
+    res.send("Bem-vindo a API OwlClock v.0.1");
+  },
   async find(req, res) {
     let result = await quizService.find();
     res.send(result);
