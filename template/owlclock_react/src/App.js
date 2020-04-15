@@ -21,7 +21,7 @@ function App() {
     if (listOfLists.length === 0) {
       return (
         <div className="emptyContainer">
-          <img className="emptyImage" src={EmptyWoman} width="150" />
+          <img className="emptyImage" src={EmptyWoman} width="30%" />
           <p className="emptyMessage">Você ainda não criou nenhuma lista :)</p>
         </div>
       );
