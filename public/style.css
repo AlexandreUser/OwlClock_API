@@ -447,15 +447,15 @@ p {
   z-index: 9;
 }
 .cat-logo {
-  width: 100px;
-  height: 100px;
-  margin-top: -10px;
+  width: 80px;
+  height: 80px;
+  margin-top: -5px;
 }
 @media only screen and (max-width: 600px) {
   .cat-logo {
     width: 65px;
     height: 65px;
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .welcome-thumb {
     width: 45%;
