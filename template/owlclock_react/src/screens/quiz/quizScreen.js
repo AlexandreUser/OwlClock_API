@@ -90,7 +90,7 @@ export default (props) => {
                       {
                         title: res.data.title,
                         description: res.data.description,
-                        id: res.data._id,
+                        _id: res.data._id,
                       },
                     ]);
                   });
