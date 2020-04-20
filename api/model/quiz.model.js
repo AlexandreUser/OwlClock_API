@@ -7,8 +7,7 @@ let Schema = mongoose.Schema;
 let questionSchema = new Schema({
   quizId: String,
   question: String,
-  responses: [String],
-  valid: Number,
+  responses: [{ response: String, isTrue: Boolean }],
   active: Boolean,
 });
 let quizSchema = new Schema({

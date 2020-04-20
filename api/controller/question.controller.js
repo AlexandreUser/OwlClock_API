@@ -9,6 +9,11 @@ module.exports = {
     let result = await questionService.findById(id);
     res.send(result);
   },
+  async findByQuizId(req, res) {
+    let id = req.params.id;
+    let result = await questionService.findByQuiz(id);
+    res.send(result);
+  },
   async create(req, res) {
     let result = await questionService.create(req.body);
     res.send(result);

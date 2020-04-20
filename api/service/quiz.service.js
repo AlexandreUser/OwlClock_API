@@ -29,6 +29,9 @@ exports.questionService = {
   async update(updateQuestion, id) {
     return await question.update({ _id: id }, updateQuestion);
   },
+  async findByQuiz(quizId) {
+    return await question.find({ quizId: quizId });
+  },
   async delete(id) {
     return await question.update({ _id: id }, { active: false });
   },

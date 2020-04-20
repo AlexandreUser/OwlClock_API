@@ -6,9 +6,10 @@ module.exports = {
     res.sendFile(path.resolve("./template/policarpo/ca/index.html"));
   },
   async find(req, res) {
-    let result = await quizService.find();
+    let result = await quizService.find({});
     res.send(result);
   },
+
   async findById(req, res) {
     let id = req.params.id;
     let result = await quizService.findById(id);
