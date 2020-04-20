@@ -13,6 +13,7 @@ routes.get("", QuizController.hello);
 routes.post("/api/v1/question", QuestionController.create);
 routes.get("/api/v1/question", QuestionController.find);
 routes.get("/api/v1/question/:id", QuestionController.findById);
+routes.get("/api/v1/question/quiz/:id", QuestionController.findByQuizId);
 routes.put("/api/v1/question", QuestionController.update);
 routes.delete("/api/v1/question/:id", QuestionController.delete);
 

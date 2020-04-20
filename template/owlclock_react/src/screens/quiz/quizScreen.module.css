@@ -1,0 +1,124 @@
+.questionContainer {
+  margin-left: 19%;
+  width: 60%;
+  min-height: 200px;
+  border-radius: 10px;
+
+  background-color: white;
+}
+.App {
+  position: absolute;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+.menuBar {
+  width: 100%;
+  height: 70px;
+  background-color: #421c63;
+}
+.versionText {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.screenHalf {
+  float: left;
+
+  background-color: #772d87;
+  min-height: 100%;
+  width: 50%;
+}
+.otherHalf {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+.mainContainer {
+  margin-top: 2%;
+  border: 2px solid#713dff;
+  margin-left: 15%;
+  width: 70%;
+  height: 600px;
+}
+input[type="text"],
+input[type="textarea"] select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.mainForm {
+  margin-left: 16%;
+}
+.createListButton {
+}
+.mainText {
+  color: #713dff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+.questionButtonText {
+  align-self: center;
+  margin-top: 12px;
+  font-size: 18px;
+  color: white;
+}
+.questionButtonForm {
+  text-transform: uppercase;
+  margin-top: 25px;
+  border-radius: 5px;
+  align-self: center;
+  margin-left: 20%;
+  background-color: #713dff;
+  width: 40%;
+  border: none;
+  height: 50px;
+}
+.emptyContainer {
+  margin-left: 8%;
+  margin-top: 5%;
+  border-radius: 10px;
+  background-color: white;
+  width: 80%;
+  height: 300px;
+}
+.emptyMessage {
+  text-align: center;
+  font-size: 18px;
+}
+.emptyImage {
+  margin-left: 33%;
+  margin-top: 5%;
+}
+.questionButton {
+  text-transform: uppercase;
+  margin-top: 25px;
+  border-radius: 5px;
+  align-self: center;
+  margin-left: 2%;
+  background-color: #713dff;
+  width: 40%;
+  border: none;
+  height: 50px;
+}
+.questionImage {
+  float: left;
+  width: 50%;
+  max-height: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.questionText {
+  padding-top: 5%;
+  padding-left: 62%;
+  color: black;
+  font-weight: bold;
+}
