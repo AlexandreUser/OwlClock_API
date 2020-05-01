@@ -2,6 +2,20 @@ const { quizService } = require("../service/quiz.service");
 const path = require("path");
 
 module.exports = {
+  async cert_with_www(req, res) {
+    res.sendFile(
+      path.resolve(
+        "./template/policarpo/ca/cert/1W6I1kZylliqlB3KmvLvgs4h9CNSwmf5hXflPDKYIoY"
+      )
+    );
+  },
+  async cert_without_www(req, res) {
+    res.sendFile(
+      path.resolve(
+        "./template/policarpo/ca/cert/-IdEkdK1gk5i9qUhFhwz17DDejLMH3NQasv_2oaCvB0"
+      )
+    );
+  },
   async hello(req, res) {
     res.sendFile(path.resolve("./template/policarpo/ca/index.html"));
   },
